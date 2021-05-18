@@ -1,0 +1,35 @@
+.nnnn{
+	background-color: #e9efff;
+	display: flex;
+
+}
+.icon{
+margin-bottom: $base*6;
+}
+.kan{
+	font-size: 48px;
+	margin-bottom: $base*7;
+}
+.text{
+	font-size: 18px;
+	width: 50%;
+}
+.left, .rig{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 50%;
+	
+}
+.left{
+	background-color: #6888ff;
+	text-align: right;
+	color: #fff;
+	align-items: flex-end;
+	padding:0px 60px 0px 0px;
+}
+.rig{
+	color:#5E80FF;
+	padding:0px 0px 0px 60px;
+}
+
+
